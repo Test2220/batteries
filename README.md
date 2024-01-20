@@ -1,5 +1,5 @@
 # Steps To Testing Batteries
- 1. Check that the batteries you are testing are fully charged
+ 1. Check that the batteries you are testing are fully charged (VERY IMPORTANT!)
  2. Plug in the battery to the laptop
  3. Enter in the values below into Discharge
  ![Alt text](Example.PNG)
