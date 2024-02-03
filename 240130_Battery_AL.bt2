@@ -24,7 +24,7 @@
     </YAxisProperties>
   </ChartProperties>
   <Tests>
-    <Test Name="Test_1">
+    <Test Name="Battery_AL">
       <Description>6 Lead Acid cells, 18.0 Ah @ 7.50A</Description>
       <DateStarted>2024-01-30T22:59:53.3545571-06:00</DateStarted>
       <SampleRate>1</SampleRate>
