@@ -46,7 +46,7 @@
 Good Battery
 ![Alt text](Good_Battery.PNG)
 Bad Batttery
-![Alt text](Bad_battery.PNG)
+![Alt text](Bad_Battery.PNG)
 
 # How To Label Batteries
 
