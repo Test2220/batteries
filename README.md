@@ -59,4 +59,4 @@ Bad Batttery
 4. In the very middle have a sticker that says "DO NOT LIFT BY WIRE"
 
 fully labeled battery
-![Alt text](Simple_Name.PNG)
+![Alt text](Name.PNG)
