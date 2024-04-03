@@ -57,3 +57,6 @@ Bad Batttery
 3. In upper right have sticker with year that the battery was recieved
 
 4. In the very middle have a sticker that says "DO NOT LIFT BY WIRE"
+
+fully labeled battery
+![Alt text](Simple_Name.PNG)
