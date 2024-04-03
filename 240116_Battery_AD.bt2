@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <CBATest>
-  <Version>3.2.2.1</Version>
+  <Version>3.3.1.1</Version>
   <Type>Discharge</Type>
   <ChartProperties>
     <Title>
@@ -59,6 +59,7 @@
         <Threshold>80</Threshold>
         <IsMissionProfileTest>false</IsMissionProfileTest>
         <IsInternalResistanceTest>false</IsInternalResistanceTest>
+        <MinTime>0</MinTime>
       </TestType>
       <Notes />
       <Samples>
