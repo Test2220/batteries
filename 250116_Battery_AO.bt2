@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.5.3</Version>
+  <Type>Discharge</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>AmpHrs</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="Battery_AO">
+      <Description>6 Lead Acid cells, 18.0 Ah @ 7.50A</Description>
+      <DateStarted>2025-01-16T20:03:38.1405712-06:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>LeadAcid</BatteryType>
+      <BatteryCapacity>18</BatteryCapacity>
+      <BatteryVoltage>13.2</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>0</BatteryWeight>
+      <BatteryAge>1</BatteryAge>
+      <BatteryManufacturer />
+      <BatteryNotes />
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>10.5</TestCutoffV>
+      <TestedCapacity>0.1434739</TestedCapacity>
+      <PowerCapacity>1.7545656</PowerCapacity>
+      <TestTime>72</TestTime>
+      <StopReason>LowVoltage</StopReason>
+      <Hide>false</Hide>
+      <LineColor>-65536</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>612</StalledMilliseconds>
+      <AverageVoltage>11.924315068493165</AverageVoltage>
+      <InternalResistance>0.13600000000000018</InternalResistance>
+      <TestType Name="Discharge">
+        <Current>7.5</Current>
+        <Graph>AmpHrs</Graph>
+        <GraphTemp>false</GraphTemp>
+        <Recovery>false</Recovery>
+        <RecoveryDur>60</RecoveryDur>
+        <PassFail>false</PassFail>
+        <ThresholdType>MinAh</ThresholdType>
+        <Threshold>80</Threshold>
+        <IsMissionProfileTest>false</IsMissionProfileTest>
+        <IsInternalResistanceTest>false</IsInternalResistanceTest>
+        <MinTime>0</MinTime>
+      </TestType>
+      <Notes />
+      <Samples>
+        <S T="0" V="12.976" C="0" Tp="999.9" />
+        <S T="1" V="12.525" C="5.128" Tp="999.9" />
+        <S T="2" V="12.525" C="5.128" Tp="999.9" />
+        <S T="3" V="12.203" C="7.5" Tp="999.9" />
+        <S T="4" V="12.203" C="7.5" Tp="999.9" />
+        <S T="5" V="12.14" C="7.5" Tp="999.9" />
+        <S T="6" V="12.089" C="7.5" Tp="999.9" />
+        <S T="7" V="12.089" C="7.5" Tp="999.9" />
+        <S T="8" V="12.05" C="7.5" Tp="999.9" />
+        <S T="9" V="12.05" C="7.5" Tp="999.9" />
+        <S T="10" V="12.023" C="7.5" Tp="999.9" />
+        <S T="11" V="12.023" C="7.5" Tp="999.9" />
+        <S T="12" V="11.999" C="7.5" Tp="999.9" />
+        <S T="13" V="11.999" C="7.5" Tp="999.9" />
+        <S T="14" V="11.979" C="7.5" Tp="999.9" />
+        <S T="15" V="11.968" C="7.5" Tp="999.9" />
+        <S T="16" V="11.968" C="7.5" Tp="999.9" />
+        <S T="17" V="11.96" C="7.5" Tp="999.9" />
+        <S T="18" V="11.96" C="7.5" Tp="999.9" />
+        <S T="19" V="11.948" C="7.5" Tp="999.9" />
+        <S T="20" V="11.948" C="7.5" Tp="999.9" />
+        <S T="21" V="11.944" C="7.5" Tp="999.9" />
+        <S T="22" V="11.944" C="7.5" Tp="999.9" />
+        <S T="23" V="11.944" C="7.5" Tp="999.9" />
+        <S T="24" V="11.948" C="7.5" Tp="999.9" />
+        <S T="25" V="11.948" C="7.5" Tp="999.9" />
+        <S T="26" V="11.952" C="7.5" Tp="999.9" />
+        <S T="27" V="11.952" C="7.5" Tp="999.9" />
+        <S T="28" V="11.956" C="7.5" Tp="999.9" />
+        <S T="29" V="11.956" C="7.5" Tp="999.9" />
+        <S T="30" V="11.956" C="7.5" Tp="999.9" />
+        <S T="31" V="11.956" C="7.5" Tp="999.9" />
+        <S T="32" V="11.956" C="7.5" Tp="999.9" />
+        <S T="33" V="11.956" C="7.5" Tp="999.9" />
+        <S T="34" V="11.956" C="7.5" Tp="999.9" />
+        <S T="35" V="11.956" C="7.5" Tp="999.9" />
+        <S T="36" V="11.956" C="7.5" Tp="999.9" />
+        <S T="37" V="11.952" C="7.5" Tp="999.9" />
+        <S T="38" V="11.952" C="7.5" Tp="999.9" />
+        <S T="39" V="11.956" C="7.5" Tp="999.9" />
+        <S T="40" V="11.956" C="7.5" Tp="999.9" />
+        <S T="41" V="11.952" C="7.5" Tp="999.9" />
+        <S T="42" V="11.952" C="7.5" Tp="999.9" />
+        <S T="43" V="11.952" C="7.5" Tp="999.9" />
+        <S T="44" V="11.956" C="7.5" Tp="999.9" />
+        <S T="45" V="11.956" C="7.5" Tp="999.9" />
+        <S T="46" V="11.956" C="7.5" Tp="999.9" />
+        <S T="47" V="11.956" C="7.5" Tp="999.9" />
+        <S T="48" V="11.956" C="7.5" Tp="999.9" />
+        <S T="49" V="11.956" C="7.5" Tp="999.9" />
+        <S T="50" V="11.956" C="7.5" Tp="999.9" />
+        <S T="51" V="11.956" C="7.5" Tp="999.9" />
+        <S T="52" V="11.956" C="7.5" Tp="999.9" />
+        <S T="53" V="11.956" C="7.5" Tp="999.9" />
+        <S T="54" V="11.956" C="7.5" Tp="999.9" />
+        <S T="55" V="11.956" C="7.5" Tp="999.9" />
+        <S T="56" V="11.956" C="7.5" Tp="999.9" />
+        <S T="57" V="11.956" C="7.5" Tp="999.9" />
+        <S T="58" V="11.956" C="7.5" Tp="999.9" />
+        <S T="59" V="11.956" C="7.5" Tp="999.9" />
+        <S T="60" V="11.956" C="7.5" Tp="999.9" />
+        <S T="61" V="11.956" C="7.5" Tp="999.9" />
+        <S T="62" V="11.96" C="7.5" Tp="999.9" />
+        <S T="63" V="11.96" C="7.5" Tp="999.9" />
+        <S T="64" V="11.964" C="7.5" Tp="999.9" />
+        <S T="65" V="11.964" C="7.5" Tp="999.9" />
+        <S T="66" V="11.964" C="7.5" Tp="999.9" />
+        <S T="67" V="11.964" C="7.5" Tp="999.9" />
+        <S T="68" V="11.964" C="7.5" Tp="999.9" />
+        <S T="69" V="11.96" C="7.5" Tp="999.9" />
+        <S T="70" V="11.96" C="7.5" Tp="999.9" />
+        <S T="71" V="9.037" C="5.914" Tp="999.9" />
+        <S T="72" V="9.037" C="5.914" Tp="999.9" />
+      </Samples>
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>
