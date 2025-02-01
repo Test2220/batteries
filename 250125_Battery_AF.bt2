@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CBATest>
+  <Version>3.5.3</Version>
+  <Type>Discharge</Type>
+  <ChartProperties>
+    <Title>
+    </Title>
+    <ShowLegend>true</ShowLegend>
+    <ShowGridLines>true</ShowGridLines>
+    <ShowCutoffVoltage>true</ShowCutoffVoltage>
+    <ShowVoltageNotes>true</ShowVoltageNotes>
+    <ChartGraphType>AmpHrs</ChartGraphType>
+    <XAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </XAxisProperties>
+    <YAxisProperties>
+      <Scrollbar>false</Scrollbar>
+      <Range>false</Range>
+      <Start>0</Start>
+      <End>0</End>
+    </YAxisProperties>
+  </ChartProperties>
+  <Tests>
+    <Test Name="Battery_AF">
+      <Description>6 Lead Acid cells, 18.0 Ah @ 7.50A</Description>
+      <DateStarted>2025-01-25T16:47:30.1942122-06:00</DateStarted>
+      <SampleRate>1</SampleRate>
+      <BatteryType>LeadAcid</BatteryType>
+      <BatteryCapacity>18</BatteryCapacity>
+      <BatteryVoltage>13.2</BatteryVoltage>
+      <BatteryCells>6</BatteryCells>
+      <BatteryWeight>0</BatteryWeight>
+      <BatteryAge>1</BatteryAge>
+      <BatteryManufacturer />
+      <BatteryNotes />
+      <ChargerSerial>0</ChargerSerial>
+      <CellReaderSerial>0</CellReaderSerial>
+      <TestCutoffV>10.5</TestCutoffV>
+      <TestedCapacity>0.00270083337</TestedCapacity>
+      <PowerCapacity>0.06485082</PowerCapacity>
+      <TestTime>4</TestTime>
+      <StopReason>LowVoltage</StopReason>
+      <Hide>false</Hide>
+      <LineColor>-65536</LineColor>
+      <LinePattern>Solid</LinePattern>
+      <PowerAmpType>NoAmp</PowerAmpType>
+      <StalledMilliseconds>527</StalledMilliseconds>
+      <AverageVoltage>10.817400000000001</AverageVoltage>
+      <InternalResistance>0</InternalResistance>
+      <TestType Name="Discharge">
+        <Current>7.5</Current>
+        <Graph>AmpHrs</Graph>
+        <GraphTemp>false</GraphTemp>
+        <Recovery>false</Recovery>
+        <RecoveryDur>60</RecoveryDur>
+        <PassFail>false</PassFail>
+        <ThresholdType>MinAh</ThresholdType>
+        <Threshold>80</Threshold>
+        <IsMissionProfileTest>false</IsMissionProfileTest>
+        <IsInternalResistanceTest>false</IsInternalResistanceTest>
+        <MinTime>0</MinTime>
+      </TestType>
+      <Notes />
+      <Samples>
+        <S T="0" V="11.591" C="0" Tp="999.9" />
+        <S T="1" V="12.517" C="6.482" Tp="999.9" />
+        <S T="2" V="12.517" C="6.482" Tp="999.9" />
+        <S T="3" V="8.731" C="5.436" Tp="999.9" />
+        <S T="4" V="8.731" C="5.436" Tp="999.9" />
+      </Samples>
+      <CellSamples />
+    </Test>
+  </Tests>
+</CBATest>
