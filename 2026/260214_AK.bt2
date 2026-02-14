@@ -24,9 +24,9 @@
     </YAxisProperties>
   </ChartProperties>
   <Tests>
-    <Test Name="Test_1">
+    <Test Name="26_AK">
       <Description>6 Lead Acid cells, 18.0 Ah @ 7.50A</Description>
-      <DateStarted>2026-02-14T12:59:44.0940756-06:00</DateStarted>
+      <DateStarted>2026-02-14T17:18:37.2945648-06:00</DateStarted>
       <SampleRate>1</SampleRate>
       <BatteryType>LeadAcid</BatteryType>
       <BatteryCapacity>18</BatteryCapacity>
@@ -47,8 +47,8 @@
       <LineColor>-65536</LineColor>
       <LinePattern>Solid</LinePattern>
       <PowerAmpType>NoAmp</PowerAmpType>
-      <StalledMilliseconds>172</StalledMilliseconds>
-      <AverageVoltage>13.209</AverageVoltage>
+      <StalledMilliseconds>361</StalledMilliseconds>
+      <AverageVoltage>13.043</AverageVoltage>
       <InternalResistance>0</InternalResistance>
       <TestType Name="Discharge">
         <Current>7.5</Current>
@@ -65,7 +65,7 @@
       </TestType>
       <Notes />
       <Samples>
-        <S T="0" V="13.209" C="0" Tp="999.9" />
+        <S T="0" V="13.043" C="0" Tp="999.9" />
       </Samples>
       <CellSamples />
     </Test>
