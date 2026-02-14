@@ -41,6 +41,13 @@
  3. You are done (when you close it if you hit save it will save it to the file you opened)
 ![Alt text](View_Multiple_Tests_image3.PNG)
 
+# Laptop Setup 
+
+1. Make sure the laptop is plugged in
+2. Go to Windows settings > Power & sleep > screen, sleep
+3. Under Plugged In, change make my device sleep after to "5 hours"
+4. Under On Battery, change make my device sleep after to "5 hours"
+
 # Good and Bad batteries
 
 Good Battery
