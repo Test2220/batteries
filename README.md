@@ -67,3 +67,13 @@ Bad Batttery
 
 fully labeled battery
 ![Alt text](Name.PNG)
+
+# Errors
+
+## Zero Voltage Error
+If you see this error:
+![Zero Voltage Error](zero_voltage_error.png)
+
+Try:
+- Switching which USB port the CBA is plugged into on the laptop
+- Checking the connections between the battery and the CBA
